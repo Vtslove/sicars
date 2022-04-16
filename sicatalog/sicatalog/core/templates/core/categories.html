@@ -1,0 +1,88 @@
+{% extends 'core/base.html' %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{Title}}</title>
+</head>
+<body>
+<div class="categories">
+	<div class="main_cat">
+		<div class="row">
+	    <a class="col-lg-2" href="#"><img class="phone_cat" src="https://i.postimg.cc/76mp71BH/phones.jpg"></a>
+		<a  href="#"><img class="computer_cat" src="https://i.postimg.cc/htW3X3S8/computers.jpg"></a>
+		<a class="col-lg-1" href="#"><img class="accessory_cat" src="https://i.postimg.cc/jSHdG9gL/accessores.jpg"></a>
+		<a  href="#"><img class="home_cat" src="https://i.postimg.cc/8kbhRKBB/house.jpg"></a>
+		<a class="col-lg-1" href="#"><img class="car_img" src="https://i.postimg.cc/h4YLjzSV/cars.jpg"></a>
+	</div>
+			<div class="row">
+	    <a class="col-lg-2" href="#">Телефоны</a>
+		<a  href="#">Компьютеры</a>
+		<a class="col-lg-1" href="#">Аксессуары</a>
+		<a  href="#">Товары для дома</a>
+		<a class="col-lg-1" href="#">Каталог автомобилей</a>
+	</div>
+	</div>
+	<div class="slider">
+		<div class="all">
+		<input checked type="radio" name="respond" id="desktop">
+			<article id="slider">
+				<div class="row">
+					<input checked type="radio" name="slider" id="switch1">
+					<input type="radio" name="slider" id="switch2">
+					<input type="radio" name="slider" id="switch3">
+					<input type="radio" name="slider" id="switch4">
+					<input type="radio" name="slider" id="switch5">
+				</div>
+				<div id="slides">
+					<div id="overflow">
+						<div class="image">
+							<article><img src="1.jpg"></article>
+							<article><img src="2.jpg"></article>
+							<article><img src="3.jpg"></article>
+							<article><img src="4.jpg"></article>
+							<article><img src="5.jpg"></article>
+						</div>
+					</div>
+				</div>
+				<div id="controls">
+					<label for="switch1"></label>
+					<label for="switch2"></label>
+					<label for="switch3"></label>
+					<label for="switch4"></label>
+					<label for="switch5"></label>
+				</div>
+				<div id="active">
+					<label for="switch1"></label>
+					<label for="switch2"></label>
+					<label for="switch3"></label>
+					<label for="switch4"></label>
+					<label for="switch5"></label>
+				</div>
+			</article>
+	</div>
+	</div>
+	<div class="second_cat">
+		<a class="col-lg-9" href="#"><img class="camera_cat" src="https://i.postimg.cc/h42C0tKG/camera.jpg"></a>
+		<a class="col-lg-9" href="#"><img class="audio_cat" src="https://i.postimg.cc/bNkfVnrT/sound.jpg"></a>
+		<a class="col-lg-9" href="#"><img class="game_cat" src="https://i.postimg.cc/zBsPTdC1/gaming.jpg"></a>
+		<a class="col-lg-9" href="#"><img class="tv_cat" src="https://i.postimg.cc/xTY6YNgg/tv.jpg"></a>
+		<a class="col-lg-9" href="#"><img class="wash_cat" src="https://i.postimg.cc/fRdyKkQn/washing.jpg"></a>
+	    <a class="col-lg-9" href="#"><img class="tools_cat" src="https://i.postimg.cc/CKF0qKF4/tools.jpg"></a>
+	</div>
+	<div class="row">
+	<div class="second_cat">
+		<a class="col-lg-9" href="#">Видеотехника</a>
+		<a class="col-lg-9" href="#">Аудиотехника</a>
+		<a class="col-lg-9" href="#">Игры</a>
+		<a class="col-lg-9" href="#">Телевизоры</a>
+		<a class="col-lg-9" href="#">Товары для уборки</a>
+	    <a class="col-lg-9" href="#">Инструменты</a>
+	</div>
+		</div>
+		<a class="share-yt" href="https://www.youtube.com/channel/UClJzWfGWuGJL2t-3dYKcHTA/playlists" target="_blank" rel="nofollow"></a>
+</div>
+</body>
+</html>
+{% endblock %}
